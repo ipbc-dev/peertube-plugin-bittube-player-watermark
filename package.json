@@ -1,0 +1,40 @@
+{
+  "name": "peertube-plugin-player-watermark",
+  "version": "0.0.1",
+  "description": "A PeerTube plugin that adds a watermark to the video player on your instance",
+  "engine": {
+    "peertube": ">=2.0.0"
+  },
+  "keywords": [
+    "peertube",
+    "plugin"
+  ],
+  "homepage": "https://framagit.org/rigelk/peertube-plugin-player-watermark",
+  "author": "Rigel Kent",
+  "bugs": "https://framagit.org/rigelk/peertube-plugin-player-watermark/issues",
+  "library": "./main.js",
+  "staticDirs": {},
+  "css": [
+    "assets/style.css"
+  ],
+  "clientScripts": [
+    {
+      "script": "client/video-watch-client-plugin-out.js",
+      "scopes": [
+        "video-watch"
+      ]
+    }
+  ],
+  "translations": {},
+  "dependencies": {
+    "videojs-watermark": "^2.0.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@purtuga/esm-webpack-plugin": "^1.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
