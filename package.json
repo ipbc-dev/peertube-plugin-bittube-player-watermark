@@ -1,7 +1,7 @@
 {
-  "name": "peertube-plugin-player-watermark",
+  "name": "peertube-plugin-bittube-player-watermark",
   "version": "0.0.1",
-  "description": "A PeerTube plugin that adds a watermark to the video player on your instance",
+  "description": "A PeerTube plugin that adds a watermark to the video player on your BitTube instance",
   "engine": {
     "peertube": ">=2.0.0"
   },
@@ -9,9 +9,9 @@
     "peertube",
     "plugin"
   ],
-  "homepage": "https://framagit.org/rigelk/peertube-plugin-player-watermark",
-  "author": "Rigel Kent",
-  "bugs": "https://framagit.org/rigelk/peertube-plugin-player-watermark/issues",
+  "homepage": "https://github.com/ipbc-dev/peertube-plugin-bittube-player-watermark",
+  "author": "BitTube",
+  "bugs": "https://github.com/ipbc-dev/peertube-plugin-bittube-player-watermark/issues",
   "library": "./main.js",
   "staticDirs": {},
   "css": [
